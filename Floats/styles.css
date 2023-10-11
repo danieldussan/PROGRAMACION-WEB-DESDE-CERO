@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .pagina{
+    width: 500px;
+    border: solid 2px red;
+  }
+  .menu{
+    background-color: bisque;
+    height: 100px;
+  }
+  .barra-lateral{
+    background-color: cadetblue;
+    height: 300px;
+    width: 100px;
+    float: left;
+}
+.contenido{
+    background-color: coral;
+    height: 300px;
+    width: 196px;
+    float: left;
+  }
+  .pie{
+    background-color: skyblue;
+    height: 200px;
+    clear: both;
+  }

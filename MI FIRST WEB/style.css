@@ -3,45 +3,110 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
-body{
-    background-color: antiquewhite;
-}
 header{
     background-color: rgb(0, 204, 255);
-    font-size: 1.5em;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(13, 109, 59);
     padding: 20px 10px;
-    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 90%;
 }
+header li{
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+header nav{
+    float: right;
+}
+header h1{
+    display: inline-block;
+    line-height: 30px;
+}
+
+
+
+
+
+/* Main */
 main{
+    background-color: antiquewhite;
+    padding-bottom: 40px;
+    padding-top: 70px;
+}
+.sobreMi{
     color: rgb(150, 16, 132);
     font-family: 'Poppins';
     font-size: 1.1em;
     font-weight: bold;
-    padding: 20px 10px;
-}
-main h2{
+    /* padding: 20px 150px; */
     text-align: center;
+}
+.sobreMi p{
+    text-align: justify;
+    margin: 20px;
+}
+.descripcion{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 main p{
     font-size: 15px;
 }
-main img{
+.trabajos{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.imagenes{
     height: 150px;
     width: 200px;
+    border-radius: 5%;
 }
 .pictures{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 10px;
+    margin-bottom: 15px;
 }
+#fotoGrande{
+    width: 70%;
+    height: 400px;
+    margin-bottom: 40px;
+}
+.fotoGrande{
+    display: flex;
+    justify-content: center;
+}
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedorTarjetas{
+    width: 200px;
+}
+
+
+
+/* Footer */
 footer{
     background-color: rgb(222, 159, 41);
     color: black;
     padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.socialNetworks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer h3{
     text-align: center;
@@ -50,6 +115,7 @@ footer h3{
 footer a{
     font-size: 1.2em;
     text-decoration: none;
+    color: black;
 }
 footer p{
     margin-top: 10px;
